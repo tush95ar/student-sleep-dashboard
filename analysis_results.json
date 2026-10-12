@@ -1,0 +1,1302 @@
+{
+  "n_total": 500,
+  "n_cgpa": 493,
+  "kpis": {
+    "avg_cgpa": 2.833833671399594,
+    "pct_at_risk_cgpa_lt_2_5": 15.010141987829615,
+    "avg_weekday_sleep": 6.608199999999999,
+    "pct_sleep_lt_6h": 31.0,
+    "median_bedtime": "23:42",
+    "pct_after_midnight": 46.400000000000006,
+    "avg_daily_screen": 5.827,
+    "pct_device_free": 25.050916496945007,
+    "avg_pre_sleep_screen_min": 38.388,
+    "avg_sleep_quality": 7.271255060728745,
+    "avg_attendance": 79.24719999999998,
+    "pct_attendance_lt_75": 36.6,
+    "avg_study_hours": 16.5714,
+    "pct_part_time_job": 33.800000000000004,
+    "avg_risk_score": 32.156699999999994,
+    "pct_high_elevated_risk": 30.8,
+    "avg_wellbeing_index": 0.0021980000000000003,
+    "pct_social_jetlag": 34.8,
+    "avg_caffeine": 1.502
+  },
+  "corr_cgpa": [
+    {
+      "var": "risk_score",
+      "r": -0.556092200495113,
+      "rho": -0.5358624943306687,
+      "p": 2.312779762272842e-41,
+      "n": 493
+    },
+    {
+      "var": "sleep_quality_score",
+      "r": 0.47394879379147453,
+      "rho": 0.46816475591376655,
+      "p": 1.220012330987934e-28,
+      "n": 487
+    },
+    {
+      "var": "avg_sleep_hours_weekday",
+      "r": 0.43523866315178483,
+      "rho": 0.44026736712601056,
+      "p": 3.3226091506920996e-24,
+      "n": 493
+    },
+    {
+      "var": "wellbeing_index",
+      "r": 0.41042260649947426,
+      "rho": 0.4012907465433653,
+      "p": 1.869463233620007e-21,
+      "n": 493
+    },
+    {
+      "var": "weekly_study_hours",
+      "r": 0.2653767244298364,
+      "rho": 0.300877048665063,
+      "p": 2.1638512265041648e-09,
+      "n": 493
+    },
+    {
+      "var": "class_attendance_percent",
+      "r": 0.2522695540414882,
+      "rho": 0.2164274792112283,
+      "p": 1.353399607222342e-08,
+      "n": 493
+    },
+    {
+      "var": "pre_sleep_screen_time_min",
+      "r": -0.21741628821742653,
+      "rho": -0.2379223340632438,
+      "p": 1.0958889924450343e-06,
+      "n": 493
+    },
+    {
+      "var": "energy_level",
+      "r": 0.2006897092089573,
+      "rho": 0.1774479916026258,
+      "p": 9.811142138916024e-06,
+      "n": 478
+    },
+    {
+      "var": "bedtime_shifted",
+      "r": -0.18705125175821802,
+      "rho": -0.18014569127220714,
+      "p": 2.9200327704738713e-05,
+      "n": 493
+    },
+    {
+      "var": "concentration_difficulty",
+      "r": -0.18388772913649332,
+      "rho": -0.18335478097374877,
+      "p": 5.058964312926295e-05,
+      "n": 480
+    },
+    {
+      "var": "weekend_sleep_delta_hours",
+      "r": -0.14877952501406766,
+      "rho": -0.13121150202415502,
+      "p": 0.0009213106913074643,
+      "n": 493
+    },
+    {
+      "var": "naps_per_week",
+      "r": -0.11876281724082871,
+      "rho": -0.12359734104585463,
+      "p": 0.00829998868847972,
+      "n": 493
+    },
+    {
+      "var": "caffeine_drinks_per_day",
+      "r": -0.09118273885530248,
+      "rho": -0.06434335218578464,
+      "p": 0.04300480440568053,
+      "n": 493
+    },
+    {
+      "var": "daily_screen_time_hours",
+      "r": -0.04629992202533556,
+      "rho": -0.01957267243115266,
+      "p": 0.30490771674375405,
+      "n": 493
+    },
+    {
+      "var": "has_part_time_job",
+      "r": 0.04519999055417228,
+      "rho": 0.020995254609493762,
+      "p": 0.31655276257567366,
+      "n": 493
+    },
+    {
+      "var": "exercise_days_per_week",
+      "r": -0.041496391550216616,
+      "rho": -0.05469511597622976,
+      "p": 0.3578724682741664,
+      "n": 493
+    },
+    {
+      "var": "device_free_before_bed",
+      "r": 0.032794690694657985,
+      "rho": 0.010700096211713302,
+      "p": 0.47164120240572754,
+      "n": 484
+    },
+    {
+      "var": "age",
+      "r": 0.019649755317927155,
+      "rho": 0.04065209286294338,
+      "p": 0.6633955778146622,
+      "n": 493
+    },
+    {
+      "var": "year_of_study",
+      "r": 0.005461954907282534,
+      "rho": 0.0011997408694026733,
+      "p": 0.9037162779993411,
+      "n": 493
+    }
+  ],
+  "corr_matrix": {
+    "age": {
+      "age": 1.0,
+      "year_of_study": -0.053,
+      "bedtime_shifted": -0.012,
+      "avg_sleep_hours_weekday": 0.052,
+      "weekend_sleep_delta_hours": -0.026,
+      "pre_sleep_screen_time_min": -0.07,
+      "daily_screen_time_hours": -0.006,
+      "caffeine_drinks_per_day": -0.018,
+      "naps_per_week": -0.031,
+      "sleep_quality_score": 0.029,
+      "exercise_days_per_week": -0.055,
+      "energy_level": 0.069,
+      "concentration_difficulty": -0.135,
+      "weekly_study_hours": -0.019,
+      "class_attendance_percent": -0.026,
+      "device_free_before_bed": -0.06,
+      "has_part_time_job": 0.004,
+      "wellbeing_index": 0.114,
+      "risk_score": -0.037,
+      "cgpa": 0.02
+    },
+    "year_of_study": {
+      "age": -0.053,
+      "year_of_study": 1.0,
+      "bedtime_shifted": 0.054,
+      "avg_sleep_hours_weekday": -0.004,
+      "weekend_sleep_delta_hours": -0.063,
+      "pre_sleep_screen_time_min": 0.111,
+      "daily_screen_time_hours": -0.026,
+      "caffeine_drinks_per_day": -0.034,
+      "naps_per_week": 0.018,
+      "sleep_quality_score": -0.052,
+      "exercise_days_per_week": 0.084,
+      "energy_level": 0.03,
+      "concentration_difficulty": -0.04,
+      "weekly_study_hours": 0.181,
+      "class_attendance_percent": -0.024,
+      "device_free_before_bed": 0.038,
+      "has_part_time_job": -0.04,
+      "wellbeing_index": -0.001,
+      "risk_score": -0.008,
+      "cgpa": 0.005
+    },
+    "bedtime_shifted": {
+      "age": -0.012,
+      "year_of_study": 0.054,
+      "bedtime_shifted": 1.0,
+      "avg_sleep_hours_weekday": -0.413,
+      "weekend_sleep_delta_hours": 0.195,
+      "pre_sleep_screen_time_min": 0.387,
+      "daily_screen_time_hours": 0.029,
+      "caffeine_drinks_per_day": 0.076,
+      "naps_per_week": 0.075,
+      "sleep_quality_score": -0.349,
+      "exercise_days_per_week": 0.073,
+      "energy_level": -0.174,
+      "concentration_difficulty": 0.138,
+      "weekly_study_hours": 0.085,
+      "class_attendance_percent": -0.111,
+      "device_free_before_bed": 0.02,
+      "has_part_time_job": -0.007,
+      "wellbeing_index": -0.317,
+      "risk_score": 0.402,
+      "cgpa": -0.187
+    },
+    "avg_sleep_hours_weekday": {
+      "age": 0.052,
+      "year_of_study": -0.004,
+      "bedtime_shifted": -0.413,
+      "avg_sleep_hours_weekday": 1.0,
+      "weekend_sleep_delta_hours": -0.424,
+      "pre_sleep_screen_time_min": -0.296,
+      "daily_screen_time_hours": -0.033,
+      "caffeine_drinks_per_day": -0.194,
+      "naps_per_week": -0.36,
+      "sleep_quality_score": 0.747,
+      "exercise_days_per_week": 0.023,
+      "energy_level": 0.385,
+      "concentration_difficulty": -0.369,
+      "weekly_study_hours": -0.039,
+      "class_attendance_percent": 0.343,
+      "device_free_before_bed": 0.041,
+      "has_part_time_job": 0.002,
+      "wellbeing_index": 0.719,
+      "risk_score": -0.839,
+      "cgpa": 0.435
+    },
+    "weekend_sleep_delta_hours": {
+      "age": -0.026,
+      "year_of_study": -0.063,
+      "bedtime_shifted": 0.195,
+      "avg_sleep_hours_weekday": -0.424,
+      "weekend_sleep_delta_hours": 1.0,
+      "pre_sleep_screen_time_min": 0.13,
+      "daily_screen_time_hours": 0.088,
+      "caffeine_drinks_per_day": 0.101,
+      "naps_per_week": 0.125,
+      "sleep_quality_score": -0.346,
+      "exercise_days_per_week": -0.067,
+      "energy_level": -0.249,
+      "concentration_difficulty": 0.156,
+      "weekly_study_hours": -0.026,
+      "class_attendance_percent": -0.195,
+      "device_free_before_bed": -0.012,
+      "has_part_time_job": 0.01,
+      "wellbeing_index": -0.351,
+      "risk_score": 0.376,
+      "cgpa": -0.149
+    },
+    "pre_sleep_screen_time_min": {
+      "age": -0.07,
+      "year_of_study": 0.111,
+      "bedtime_shifted": 0.387,
+      "avg_sleep_hours_weekday": -0.296,
+      "weekend_sleep_delta_hours": 0.13,
+      "pre_sleep_screen_time_min": 1.0,
+      "daily_screen_time_hours": 0.083,
+      "caffeine_drinks_per_day": 0.055,
+      "naps_per_week": 0.111,
+      "sleep_quality_score": -0.437,
+      "exercise_days_per_week": -0.001,
+      "energy_level": -0.116,
+      "concentration_difficulty": 0.129,
+      "weekly_study_hours": 0.037,
+      "class_attendance_percent": -0.017,
+      "device_free_before_bed": 0.019,
+      "has_part_time_job": -0.058,
+      "wellbeing_index": -0.328,
+      "risk_score": 0.48,
+      "cgpa": -0.217
+    },
+    "daily_screen_time_hours": {
+      "age": -0.006,
+      "year_of_study": -0.026,
+      "bedtime_shifted": 0.029,
+      "avg_sleep_hours_weekday": -0.033,
+      "weekend_sleep_delta_hours": 0.088,
+      "pre_sleep_screen_time_min": 0.083,
+      "daily_screen_time_hours": 1.0,
+      "caffeine_drinks_per_day": 0.068,
+      "naps_per_week": -0.006,
+      "sleep_quality_score": -0.008,
+      "exercise_days_per_week": 0.009,
+      "energy_level": -0.009,
+      "concentration_difficulty": 0.269,
+      "weekly_study_hours": -0.126,
+      "class_attendance_percent": 0.032,
+      "device_free_before_bed": 0.037,
+      "has_part_time_job": 0.058,
+      "wellbeing_index": -0.142,
+      "risk_score": 0.064,
+      "cgpa": -0.046
+    },
+    "caffeine_drinks_per_day": {
+      "age": -0.018,
+      "year_of_study": -0.034,
+      "bedtime_shifted": 0.076,
+      "avg_sleep_hours_weekday": -0.194,
+      "weekend_sleep_delta_hours": 0.101,
+      "pre_sleep_screen_time_min": 0.055,
+      "daily_screen_time_hours": 0.068,
+      "caffeine_drinks_per_day": 1.0,
+      "naps_per_week": 0.114,
+      "sleep_quality_score": -0.257,
+      "exercise_days_per_week": -0.027,
+      "energy_level": -0.222,
+      "concentration_difficulty": 0.034,
+      "weekly_study_hours": 0.023,
+      "class_attendance_percent": -0.111,
+      "device_free_before_bed": -0.015,
+      "has_part_time_job": 0.011,
+      "wellbeing_index": -0.245,
+      "risk_score": 0.217,
+      "cgpa": -0.091
+    },
+    "naps_per_week": {
+      "age": -0.031,
+      "year_of_study": 0.018,
+      "bedtime_shifted": 0.075,
+      "avg_sleep_hours_weekday": -0.36,
+      "weekend_sleep_delta_hours": 0.125,
+      "pre_sleep_screen_time_min": 0.111,
+      "daily_screen_time_hours": -0.006,
+      "caffeine_drinks_per_day": 0.114,
+      "naps_per_week": 1.0,
+      "sleep_quality_score": -0.291,
+      "exercise_days_per_week": -0.002,
+      "energy_level": -0.202,
+      "concentration_difficulty": 0.214,
+      "weekly_study_hours": 0.066,
+      "class_attendance_percent": -0.109,
+      "device_free_before_bed": -0.04,
+      "has_part_time_job": -0.052,
+      "wellbeing_index": -0.334,
+      "risk_score": 0.304,
+      "cgpa": -0.119
+    },
+    "sleep_quality_score": {
+      "age": 0.029,
+      "year_of_study": -0.052,
+      "bedtime_shifted": -0.349,
+      "avg_sleep_hours_weekday": 0.747,
+      "weekend_sleep_delta_hours": -0.346,
+      "pre_sleep_screen_time_min": -0.437,
+      "daily_screen_time_hours": -0.008,
+      "caffeine_drinks_per_day": -0.257,
+      "naps_per_week": -0.291,
+      "sleep_quality_score": 1.0,
+      "exercise_days_per_week": -0.006,
+      "energy_level": 0.322,
+      "concentration_difficulty": -0.235,
+      "weekly_study_hours": -0.041,
+      "class_attendance_percent": 0.28,
+      "device_free_before_bed": 0.034,
+      "has_part_time_job": -0.003,
+      "wellbeing_index": 0.752,
+      "risk_score": -0.831,
+      "cgpa": 0.474
+    },
+    "exercise_days_per_week": {
+      "age": -0.055,
+      "year_of_study": 0.084,
+      "bedtime_shifted": 0.073,
+      "avg_sleep_hours_weekday": 0.023,
+      "weekend_sleep_delta_hours": -0.067,
+      "pre_sleep_screen_time_min": -0.001,
+      "daily_screen_time_hours": 0.009,
+      "caffeine_drinks_per_day": -0.027,
+      "naps_per_week": -0.002,
+      "sleep_quality_score": -0.006,
+      "exercise_days_per_week": 1.0,
+      "energy_level": -0.022,
+      "concentration_difficulty": 0.021,
+      "weekly_study_hours": 0.032,
+      "class_attendance_percent": 0.037,
+      "device_free_before_bed": -0.037,
+      "has_part_time_job": 0.099,
+      "wellbeing_index": -0.013,
+      "risk_score": -0.029,
+      "cgpa": -0.041
+    },
+    "energy_level": {
+      "age": 0.069,
+      "year_of_study": 0.03,
+      "bedtime_shifted": -0.174,
+      "avg_sleep_hours_weekday": 0.385,
+      "weekend_sleep_delta_hours": -0.249,
+      "pre_sleep_screen_time_min": -0.116,
+      "daily_screen_time_hours": -0.009,
+      "caffeine_drinks_per_day": -0.222,
+      "naps_per_week": -0.202,
+      "sleep_quality_score": 0.322,
+      "exercise_days_per_week": -0.022,
+      "energy_level": 1.0,
+      "concentration_difficulty": -0.114,
+      "weekly_study_hours": 0.014,
+      "class_attendance_percent": 0.133,
+      "device_free_before_bed": 0.012,
+      "has_part_time_job": -0.063,
+      "wellbeing_index": 0.691,
+      "risk_score": -0.353,
+      "cgpa": 0.201
+    },
+    "concentration_difficulty": {
+      "age": -0.135,
+      "year_of_study": -0.04,
+      "bedtime_shifted": 0.138,
+      "avg_sleep_hours_weekday": -0.369,
+      "weekend_sleep_delta_hours": 0.156,
+      "pre_sleep_screen_time_min": 0.129,
+      "daily_screen_time_hours": 0.269,
+      "caffeine_drinks_per_day": 0.034,
+      "naps_per_week": 0.214,
+      "sleep_quality_score": -0.235,
+      "exercise_days_per_week": 0.021,
+      "energy_level": -0.114,
+      "concentration_difficulty": 1.0,
+      "weekly_study_hours": -0.013,
+      "class_attendance_percent": -0.098,
+      "device_free_before_bed": -0.002,
+      "has_part_time_job": -0.028,
+      "wellbeing_index": -0.649,
+      "risk_score": 0.295,
+      "cgpa": -0.184
+    },
+    "weekly_study_hours": {
+      "age": -0.019,
+      "year_of_study": 0.181,
+      "bedtime_shifted": 0.085,
+      "avg_sleep_hours_weekday": -0.039,
+      "weekend_sleep_delta_hours": -0.026,
+      "pre_sleep_screen_time_min": 0.037,
+      "daily_screen_time_hours": -0.126,
+      "caffeine_drinks_per_day": 0.023,
+      "naps_per_week": 0.066,
+      "sleep_quality_score": -0.041,
+      "exercise_days_per_week": 0.032,
+      "energy_level": 0.014,
+      "concentration_difficulty": -0.013,
+      "weekly_study_hours": 1.0,
+      "class_attendance_percent": 0.046,
+      "device_free_before_bed": 0.019,
+      "has_part_time_job": 0.038,
+      "wellbeing_index": -0.003,
+      "risk_score": -0.208,
+      "cgpa": 0.265
+    },
+    "class_attendance_percent": {
+      "age": -0.026,
+      "year_of_study": -0.024,
+      "bedtime_shifted": -0.111,
+      "avg_sleep_hours_weekday": 0.343,
+      "weekend_sleep_delta_hours": -0.195,
+      "pre_sleep_screen_time_min": -0.017,
+      "daily_screen_time_hours": 0.032,
+      "caffeine_drinks_per_day": -0.111,
+      "naps_per_week": -0.109,
+      "sleep_quality_score": 0.28,
+      "exercise_days_per_week": 0.037,
+      "energy_level": 0.133,
+      "concentration_difficulty": -0.098,
+      "weekly_study_hours": 0.046,
+      "class_attendance_percent": 1.0,
+      "device_free_before_bed": 0.042,
+      "has_part_time_job": -0.017,
+      "wellbeing_index": 0.248,
+      "risk_score": -0.564,
+      "cgpa": 0.252
+    },
+    "device_free_before_bed": {
+      "age": -0.06,
+      "year_of_study": 0.038,
+      "bedtime_shifted": 0.02,
+      "avg_sleep_hours_weekday": 0.041,
+      "weekend_sleep_delta_hours": -0.012,
+      "pre_sleep_screen_time_min": 0.019,
+      "daily_screen_time_hours": 0.037,
+      "caffeine_drinks_per_day": -0.015,
+      "naps_per_week": -0.04,
+      "sleep_quality_score": 0.034,
+      "exercise_days_per_week": -0.037,
+      "energy_level": 0.012,
+      "concentration_difficulty": -0.002,
+      "weekly_study_hours": 0.019,
+      "class_attendance_percent": 0.042,
+      "device_free_before_bed": 1.0,
+      "has_part_time_job": -0.036,
+      "wellbeing_index": 0.024,
+      "risk_score": -0.034,
+      "cgpa": 0.033
+    },
+    "has_part_time_job": {
+      "age": 0.004,
+      "year_of_study": -0.04,
+      "bedtime_shifted": -0.007,
+      "avg_sleep_hours_weekday": 0.002,
+      "weekend_sleep_delta_hours": 0.01,
+      "pre_sleep_screen_time_min": -0.058,
+      "daily_screen_time_hours": 0.058,
+      "caffeine_drinks_per_day": 0.011,
+      "naps_per_week": -0.052,
+      "sleep_quality_score": -0.003,
+      "exercise_days_per_week": 0.099,
+      "energy_level": -0.063,
+      "concentration_difficulty": -0.028,
+      "weekly_study_hours": 0.038,
+      "class_attendance_percent": -0.017,
+      "device_free_before_bed": -0.036,
+      "has_part_time_job": 1.0,
+      "wellbeing_index": -0.014,
+      "risk_score": -0.015,
+      "cgpa": 0.045
+    },
+    "wellbeing_index": {
+      "age": 0.114,
+      "year_of_study": -0.001,
+      "bedtime_shifted": -0.317,
+      "avg_sleep_hours_weekday": 0.719,
+      "weekend_sleep_delta_hours": -0.351,
+      "pre_sleep_screen_time_min": -0.328,
+      "daily_screen_time_hours": -0.142,
+      "caffeine_drinks_per_day": -0.245,
+      "naps_per_week": -0.334,
+      "sleep_quality_score": 0.752,
+      "exercise_days_per_week": -0.013,
+      "energy_level": 0.691,
+      "concentration_difficulty": -0.649,
+      "weekly_study_hours": -0.003,
+      "class_attendance_percent": 0.248,
+      "device_free_before_bed": 0.024,
+      "has_part_time_job": -0.014,
+      "wellbeing_index": 1.0,
+      "risk_score": -0.711,
+      "cgpa": 0.41
+    },
+    "risk_score": {
+      "age": -0.037,
+      "year_of_study": -0.008,
+      "bedtime_shifted": 0.402,
+      "avg_sleep_hours_weekday": -0.839,
+      "weekend_sleep_delta_hours": 0.376,
+      "pre_sleep_screen_time_min": 0.48,
+      "daily_screen_time_hours": 0.064,
+      "caffeine_drinks_per_day": 0.217,
+      "naps_per_week": 0.304,
+      "sleep_quality_score": -0.831,
+      "exercise_days_per_week": -0.029,
+      "energy_level": -0.353,
+      "concentration_difficulty": 0.295,
+      "weekly_study_hours": -0.208,
+      "class_attendance_percent": -0.564,
+      "device_free_before_bed": -0.034,
+      "has_part_time_job": -0.015,
+      "wellbeing_index": -0.711,
+      "risk_score": 1.0,
+      "cgpa": -0.556
+    },
+    "cgpa": {
+      "age": 0.02,
+      "year_of_study": 0.005,
+      "bedtime_shifted": -0.187,
+      "avg_sleep_hours_weekday": 0.435,
+      "weekend_sleep_delta_hours": -0.149,
+      "pre_sleep_screen_time_min": -0.217,
+      "daily_screen_time_hours": -0.046,
+      "caffeine_drinks_per_day": -0.091,
+      "naps_per_week": -0.119,
+      "sleep_quality_score": 0.474,
+      "exercise_days_per_week": -0.041,
+      "energy_level": 0.201,
+      "concentration_difficulty": -0.184,
+      "weekly_study_hours": 0.265,
+      "class_attendance_percent": 0.252,
+      "device_free_before_bed": 0.033,
+      "has_part_time_job": 0.045,
+      "wellbeing_index": 0.41,
+      "risk_score": -0.556,
+      "cgpa": 1.0
+    }
+  },
+  "groups": {
+    "chronotype": {
+      "rows": [
+        {
+          "group": "Early Bird",
+          "mean": 2.963020134228188,
+          "n": 149,
+          "small_n": false
+        },
+        {
+          "group": "Intermediate",
+          "mean": 2.8338190954773865,
+          "n": 199,
+          "small_n": false
+        },
+        {
+          "group": "Night Owl",
+          "mean": 2.7011034482758625,
+          "n": 145,
+          "small_n": false
+        }
+      ],
+      "test_p": 6.283603787540582e-11,
+      "spread": 0.2619166859523254
+    },
+    "residence_type": {
+      "rows": [
+        {
+          "group": "Dormitory",
+          "mean": 2.812393617021277,
+          "n": 188,
+          "small_n": false
+        },
+        {
+          "group": "Homestay",
+          "mean": 2.8508333333333336,
+          "n": 24,
+          "small_n": true
+        },
+        {
+          "group": "Off-campus Apartment",
+          "mean": 2.8273154362416104,
+          "n": 149,
+          "small_n": false
+        },
+        {
+          "group": "With Family",
+          "mean": 2.8686363636363637,
+          "n": 132,
+          "small_n": false
+        }
+      ],
+      "test_p": 0.5106549135027543,
+      "spread": 0.05624274661508677
+    },
+    "primary_device": {
+      "rows": [
+        {
+          "group": "Laptop",
+          "mean": 2.8275773195876286,
+          "n": 194,
+          "small_n": false
+        },
+        {
+          "group": "Smartphone",
+          "mean": 2.8314552238805972,
+          "n": 268,
+          "small_n": false
+        },
+        {
+          "group": "Tablet",
+          "mean": 2.893548387096774,
+          "n": 31,
+          "small_n": false
+        }
+      ],
+      "test_p": 0.5872986108198424,
+      "spread": 0.06597106750914561
+    },
+    "major_category": {
+      "rows": [
+        {
+          "group": "Arts",
+          "mean": 2.7625,
+          "n": 32,
+          "small_n": false
+        },
+        {
+          "group": "Business",
+          "mean": 2.8350561797752807,
+          "n": 89,
+          "small_n": false
+        },
+        {
+          "group": "Health Sciences",
+          "mean": 2.8960655737704917,
+          "n": 61,
+          "small_n": false
+        },
+        {
+          "group": "Humanities",
+          "mean": 2.744423076923077,
+          "n": 52,
+          "small_n": false
+        },
+        {
+          "group": "Law",
+          "mean": 2.757391304347826,
+          "n": 23,
+          "small_n": true
+        },
+        {
+          "group": "STEM",
+          "mean": 2.8828125,
+          "n": 160,
+          "small_n": false
+        },
+        {
+          "group": "Social Sciences",
+          "mean": 2.7936842105263158,
+          "n": 76,
+          "small_n": false
+        }
+      ],
+      "test_p": 0.04215781451869752,
+      "spread": 0.1516424968474146
+    },
+    "screen_band": {
+      "rows": [
+        {
+          "group": "<3h",
+          "mean": 2.902058823529412,
+          "n": 34,
+          "small_n": false
+        },
+        {
+          "group": "3-6h",
+          "mean": 2.8317180616740085,
+          "n": 227,
+          "small_n": false
+        },
+        {
+          "group": "6-9h",
+          "mean": 2.833623188405797,
+          "n": 207,
+          "small_n": false
+        },
+        {
+          "group": "9h+",
+          "mean": 2.762,
+          "n": 25,
+          "small_n": true
+        }
+      ],
+      "test_p": 0.4634857795144476,
+      "spread": 0.140058823529412
+    },
+    "bedtime_band": {
+      "rows": [
+        {
+          "group": "Before 22:00",
+          "mean": 2.9231818181818183,
+          "n": 44,
+          "small_n": false
+        },
+        {
+          "group": "22:00-23:00",
+          "mean": 2.8913392857142854,
+          "n": 112,
+          "small_n": false
+        },
+        {
+          "group": "23:00-00:00",
+          "mean": 2.8590825688073394,
+          "n": 109,
+          "small_n": false
+        },
+        {
+          "group": "00:00-01:00",
+          "mean": 2.818857142857143,
+          "n": 105,
+          "small_n": false
+        },
+        {
+          "group": "After 01:00",
+          "mean": 2.7399186991869917,
+          "n": 123,
+          "small_n": false
+        }
+      ],
+      "test_p": 0.001813298786649216,
+      "spread": 0.1832631189948266
+    },
+    "pre_sleep_screen_band": {
+      "rows": [
+        {
+          "group": "0 min",
+          "mean": 2.992857142857143,
+          "n": 14,
+          "small_n": true
+        },
+        {
+          "group": "1-30 min",
+          "mean": 2.9071195652173913,
+          "n": 184,
+          "small_n": false
+        },
+        {
+          "group": "31-60 min",
+          "mean": 2.8046046511627907,
+          "n": 215,
+          "small_n": false
+        },
+        {
+          "group": "60+ min",
+          "mean": 2.716,
+          "n": 80,
+          "small_n": false
+        }
+      ],
+      "test_p": 2.5151991947715767e-05,
+      "spread": 0.2768571428571427
+    },
+    "gender": {
+      "rows": [
+        {
+          "group": "Female",
+          "mean": 2.825397489539749,
+          "n": 239,
+          "small_n": false
+        },
+        {
+          "group": "Male",
+          "mean": 2.8535217391304344,
+          "n": 230,
+          "small_n": false
+        },
+        {
+          "group": "Non-binary",
+          "mean": 2.716666666666667,
+          "n": 12,
+          "small_n": true
+        },
+        {
+          "group": "Prefer not to say",
+          "mean": 2.7416666666666667,
+          "n": 12,
+          "small_n": true
+        }
+      ],
+      "test_p": 0.3447167266664835,
+      "spread": 0.1368550724637676
+    },
+    "year_of_study": {
+      "rows": [
+        {
+          "group": "1.0",
+          "mean": 2.8050476190476186,
+          "n": 105,
+          "small_n": false
+        },
+        {
+          "group": "2.0",
+          "mean": 2.88,
+          "n": 93,
+          "small_n": false
+        },
+        {
+          "group": "3.0",
+          "mean": 2.822924528301887,
+          "n": 106,
+          "small_n": false
+        },
+        {
+          "group": "4.0",
+          "mean": 2.8364356435643567,
+          "n": 101,
+          "small_n": false
+        },
+        {
+          "group": "5.0",
+          "mean": 2.8295454545454546,
+          "n": 88,
+          "small_n": false
+        }
+      ],
+      "test_p": 0.6146466603770544,
+      "spread": 0.07495238095238133
+    },
+    "has_part_time_job": {
+      "rows": [
+        {
+          "group": "0.0",
+          "mean": 2.823161094224924,
+          "n": 329,
+          "small_n": false
+        },
+        {
+          "group": "1.0",
+          "mean": 2.855243902439024,
+          "n": 164,
+          "small_n": false
+        }
+      ],
+      "test_p": 0.31655276257567283,
+      "spread": 0.032082808214100034
+    },
+    "semester_type": {
+      "rows": [
+        {
+          "group": "Fall",
+          "mean": 2.825829596412556,
+          "n": 223,
+          "small_n": false
+        },
+        {
+          "group": "Spring",
+          "mean": 2.8555276381909547,
+          "n": 199,
+          "small_n": false
+        },
+        {
+          "group": "Summer",
+          "mean": 2.798169014084507,
+          "n": 71,
+          "small_n": false
+        }
+      ],
+      "test_p": 0.4137570278386372,
+      "spread": 0.05735862410644765
+    },
+    "risk_level": {
+      "rows": [
+        {
+          "group": "Low",
+          "mean": 3.031186440677966,
+          "n": 177,
+          "small_n": false
+        },
+        {
+          "group": "Moderate",
+          "mean": 2.8162576687116565,
+          "n": 163,
+          "small_n": false
+        },
+        {
+          "group": "Elevated",
+          "mean": 2.6781730769230765,
+          "n": 104,
+          "small_n": false
+        },
+        {
+          "group": "High",
+          "mean": 2.509795918367347,
+          "n": 49,
+          "small_n": false
+        }
+      ],
+      "test_p": 1.8870294473953124e-32,
+      "spread": 0.521390522310619
+    },
+    "sleep_band": {
+      "rows": [
+        {
+          "group": "<5h",
+          "mean": 2.6187719298245615,
+          "n": 57,
+          "small_n": false
+        },
+        {
+          "group": "5-6h",
+          "mean": 2.6820833333333334,
+          "n": 96,
+          "small_n": false
+        },
+        {
+          "group": "6-7h",
+          "mean": 2.8238028169014084,
+          "n": 142,
+          "small_n": false
+        },
+        {
+          "group": "7-8h",
+          "mean": 2.9023300970873787,
+          "n": 103,
+          "small_n": false
+        },
+        {
+          "group": "8h+",
+          "mean": 3.056947368421053,
+          "n": 95,
+          "small_n": false
+        }
+      ],
+      "spread": 0.43817543859649133
+    }
+  },
+  "residence_profile": [
+    {
+      "residence_type": "Dormitory",
+      "n": 190,
+      "cgpa": 2.812,
+      "sleep": 6.761,
+      "bedtime": 23.732,
+      "screen": 5.944,
+      "quality": 7.465,
+      "risk": 31.316
+    },
+    {
+      "residence_type": "Homestay",
+      "n": 24,
+      "cgpa": 2.851,
+      "sleep": 6.75,
+      "bedtime": 23.588,
+      "screen": 6.196,
+      "quality": 7.565,
+      "risk": 31.34
+    },
+    {
+      "residence_type": "Off-campus Apartment",
+      "n": 153,
+      "cgpa": 2.827,
+      "sleep": 6.54,
+      "bedtime": 23.826,
+      "screen": 5.781,
+      "quality": 7.176,
+      "risk": 32.483
+    },
+    {
+      "residence_type": "With Family",
+      "n": 133,
+      "cgpa": 2.869,
+      "sleep": 6.444,
+      "bedtime": 23.974,
+      "screen": 5.647,
+      "quality": 7.053,
+      "risk": 33.13
+    }
+  ],
+  "chronotype_profile": [
+    {
+      "chronotype": "Early Bird",
+      "n": 152,
+      "cgpa": 2.963,
+      "sleep": 7.565,
+      "bedtime": 22.502,
+      "quality": 8.541,
+      "jetlag": 1.282
+    },
+    {
+      "chronotype": "Intermediate",
+      "n": 201,
+      "cgpa": 2.834,
+      "sleep": 6.723,
+      "bedtime": 23.763,
+      "quality": 7.48,
+      "jetlag": 1.471
+    },
+    {
+      "chronotype": "Night Owl",
+      "n": 147,
+      "cgpa": 2.701,
+      "sleep": 5.461,
+      "bedtime": 25.255,
+      "quality": 5.699,
+      "jetlag": 1.904
+    }
+  ],
+  "regression_base": {
+    "n": 493,
+    "r2": 0.2829877502682363,
+    "adj_r2": 0.2741357471851281,
+    "coefs": [
+      {
+        "var": "avg_sleep_hours_weekday",
+        "beta": 0.4111381179151783,
+        "p": 3.2319161192505716e-21,
+        "ci_lo": 0.3296411306839333,
+        "ci_hi": 0.4926351051464233,
+        "raw_coef": 0.09564151756899116,
+        "significant": true
+      },
+      {
+        "var": "weekly_study_hours",
+        "beta": 0.2802618303889956,
+        "p": 2.078680001613228e-12,
+        "ci_lo": 0.20394316973456328,
+        "ci_hi": 0.3565804910434279,
+        "raw_coef": 0.013552861460919876,
+        "significant": true
+      },
+      {
+        "var": "class_attendance_percent",
+        "beta": 0.10535886504932612,
+        "p": 0.010456294866587872,
+        "ci_lo": 0.024819212062048193,
+        "ci_hi": 0.18589851803660407,
+        "raw_coef": 0.002974705052078825,
+        "significant": true
+      },
+      {
+        "var": "exercise_days_per_week",
+        "beta": -0.06278049800158784,
+        "p": 0.10331180628354412,
+        "ci_lo": -0.13836210413737304,
+        "ci_hi": 0.01280110813419734,
+        "raw_coef": -0.00924064178425276,
+        "significant": false
+      },
+      {
+        "var": "caffeine_drinks_per_day",
+        "beta": -0.004510176370554684,
+        "p": 0.9086200418408021,
+        "ci_lo": -0.08167769237364751,
+        "ci_hi": 0.07265733963253813,
+        "raw_coef": -0.0011966717350685233,
+        "significant": false
+      },
+      {
+        "var": "daily_screen_time_hours",
+        "beta": -0.0016054166013661966,
+        "p": 0.9670736456744033,
+        "ci_lo": -0.07798337509588799,
+        "ci_hi": 0.0747725418931556,
+        "raw_coef": -0.00026234269540090227,
+        "significant": false
+      }
+    ],
+    "raw_intercept": 1.7778579457998656
+  },
+  "regression_ext": {
+    "n": 487,
+    "r2": 0.33662058195822187,
+    "adj_r2": 0.3212581112246228,
+    "coefs": [
+      {
+        "var": "sleep_quality_score",
+        "beta": 0.3334711111581977,
+        "p": 8.417632353695068e-08,
+        "ci_lo": 0.2130819953442818,
+        "ci_hi": 0.45386022697211365,
+        "raw_coef": 0.05238780816533426,
+        "significant": true
+      },
+      {
+        "var": "weekly_study_hours",
+        "beta": 0.27913047565979193,
+        "p": 9.499414132237094e-13,
+        "ci_lo": 0.20437808018748566,
+        "ci_hi": 0.3538828711320982,
+        "raw_coef": 0.013490443251881642,
+        "significant": true
+      },
+      {
+        "var": "avg_sleep_hours_weekday",
+        "beta": 0.16932512706166877,
+        "p": 0.005858994395914389,
+        "ci_lo": 0.04912691467726067,
+        "ci_hi": 0.2895233394460769,
+        "raw_coef": 0.03952644422505926,
+        "significant": true
+      },
+      {
+        "var": "class_attendance_percent",
+        "beta": 0.1027052474320188,
+        "p": 0.010744926242164908,
+        "ci_lo": 0.023902994187447263,
+        "ci_hi": 0.18150750067659033,
+        "raw_coef": 0.002902885285476456,
+        "significant": true
+      },
+      {
+        "var": "exercise_days_per_week",
+        "beta": -0.05380467935236168,
+        "p": 0.15527629994189435,
+        "ci_lo": -0.12808071958087178,
+        "ci_hi": 0.020471360876148405,
+        "raw_coef": -0.007946846319057923,
+        "significant": false
+      },
+      {
+        "var": "pre_sleep_screen_time_min",
+        "beta": -0.0389782193162397,
+        "p": 0.37778411096132813,
+        "ci_lo": -0.12573623087778452,
+        "ci_hi": 0.04777979224530512,
+        "raw_coef": -0.0005510030871123325,
+        "significant": false
+      },
+      {
+        "var": "naps_per_week",
+        "beta": 0.03634516148412281,
+        "p": 0.36948709336661667,
+        "ci_lo": -0.043158488196846256,
+        "ci_hi": 0.11584881116509188,
+        "raw_coef": 0.009102494969944114,
+        "significant": false
+      },
+      {
+        "var": "caffeine_drinks_per_day",
+        "beta": 0.03517117306834755,
+        "p": 0.3682770302853938,
+        "ci_lo": -0.041570067374009936,
+        "ci_hi": 0.11191241351070504,
+        "raw_coef": 0.009324172553977737,
+        "significant": false
+      },
+      {
+        "var": "has_part_time_job",
+        "beta": 0.034282245642999004,
+        "p": 0.36505594874492797,
+        "ci_lo": -0.04001789402250787,
+        "ci_hi": 0.10858238530850588,
+        "raw_coef": 0.024376801653713975,
+        "significant": false
+      },
+      {
+        "var": "daily_screen_time_hours",
+        "beta": -0.013084481198093932,
+        "p": 0.7317057581930898,
+        "ci_lo": -0.08802964866480475,
+        "ci_hi": 0.061860686268616884,
+        "raw_coef": -0.0021466721066592948,
+        "significant": false
+      },
+      {
+        "var": "bedtime_shifted",
+        "beta": -0.003407247079375314,
+        "p": 0.9373364777971155,
+        "ci_lo": -0.08852257887531502,
+        "ci_hi": 0.08170808471656439,
+        "raw_coef": -0.0007778537081977177,
+        "significant": false
+      }
+    ],
+    "raw_intercept": 1.7840271023269105
+  },
+  "regression_base_no_outliers": {
+    "n": 467,
+    "r2": 0.3120384333965559,
+    "adj_r2": 0.3030650216582501,
+    "coefs": [
+      {
+        "var": "avg_sleep_hours_weekday",
+        "beta": 0.40064485792158333,
+        "p": 1.0999608777186387e-20,
+        "ci_lo": 0.32022704162539317,
+        "ci_hi": 0.4810626742177735,
+        "raw_coef": 0.10274831381745003,
+        "significant": true
+      },
+      {
+        "var": "weekly_study_hours",
+        "beta": 0.3390089972816127,
+        "p": 8.248758485066259e-17,
+        "ci_lo": 0.26205029318426737,
+        "ci_hi": 0.41596770137895805,
+        "raw_coef": 0.01838540703788092,
+        "significant": true
+      },
+      {
+        "var": "class_attendance_percent",
+        "beta": 0.10067325178911213,
+        "p": 0.013449106116003856,
+        "ci_lo": 0.02094017571496841,
+        "ci_hi": 0.18040632786325583,
+        "raw_coef": 0.002879324182266952,
+        "significant": true
+      },
+      {
+        "var": "exercise_days_per_week",
+        "beta": -0.06921384790275156,
+        "p": 0.07421807801054356,
+        "ci_lo": -0.1452277038265336,
+        "ci_hi": 0.006800008021030465,
+        "raw_coef": -0.00994205668363379,
+        "significant": false
+      },
+      {
+        "var": "daily_screen_time_hours",
+        "beta": 0.047111954506878585,
+        "p": 0.23021366320585412,
+        "ci_lo": -0.02994914548374982,
+        "ci_hi": 0.12417305449750698,
+        "raw_coef": 0.0078026219775805955,
+        "significant": false
+      },
+      {
+        "var": "caffeine_drinks_per_day",
+        "beta": 0.019441215803682164,
+        "p": 0.6210893260969581,
+        "ci_lo": -0.05779573258887247,
+        "ci_hi": 0.09667816419623679,
+        "raw_coef": 0.005145760246508431,
+        "significant": false
+      }
+    ],
+    "raw_intercept": 1.6037199080874163
+  },
+  "risk_vs_cgpa_r": -0.556092200495113
+}

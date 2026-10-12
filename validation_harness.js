@@ -1,0 +1,35 @@
+(() => {
+const EXP = {"combos": [{"name": "No filters", "filters": {}, "out": false, "rows": 500, "kpis": {"cgpa": {"v": 2.833833671399594, "n": 493, "fmt": "2.83"}, "atRisk": {"v": 15.010141987829615, "n": 493, "fmt": "15.0%"}, "sleep": {"v": 6.608199999999999, "n": 500, "fmt": "6.61 h"}, "short": {"v": 31.0, "n": 500, "fmt": "31.0%"}, "bedtime": {"v": 23.7, "n": 500, "fmt": "23:42"}, "afterMid": {"v": 46.4, "n": 500, "fmt": "46.4%"}, "quality": {"v": 7.271255060728745, "n": 494, "fmt": "7.27/10"}, "jetlag": {"v": 34.8, "n": 500, "fmt": "34.8%"}, "preSleep": {"v": 38.388, "n": 500, "fmt": "38.4 min"}, "heavyPre": {"v": 16.2, "n": 500, "fmt": "16.2%"}, "screen": {"v": 5.827, "n": 500, "fmt": "5.83 h"}, "deviceFree": {"v": 25.05091649694501, "n": 491, "fmt": "25.1%"}, "attendance": {"v": 79.24719999999998, "n": 500, "fmt": "79.2%"}, "lowAtt": {"v": 36.6, "n": 500, "fmt": "36.6%"}, "study": {"v": 16.5714, "n": 500, "fmt": "16.6 h"}, "risk": {"v": 32.156699999999994, "n": 500, "fmt": "32.2"}, "elevHigh": {"v": 30.8, "n": 500, "fmt": "30.8%"}, "wellbeing": {"v": 0.0021980000000000003, "n": 500, "fmt": "0.00"}}}, {"name": "year=2", "filters": {"year": ["2"]}, "out": false, "rows": 93, "kpis": {"cgpa": {"v": 2.88, "n": 93, "fmt": "2.88"}, "atRisk": {"v": 10.75268817204301, "n": 93, "fmt": "10.8%"}, "sleep": {"v": 6.8204301075268825, "n": 93, "fmt": "6.82 h"}, "short": {"v": 21.50537634408602, "n": 93, "fmt": "21.5%"}, "bedtime": {"v": 23.5, "n": 93, "fmt": "23:30"}, "afterMid": {"v": 41.935483870967744, "n": 93, "fmt": "41.9%"}, "quality": {"v": 7.6521739130434785, "n": 92, "fmt": "7.65/10"}, "jetlag": {"v": 36.55913978494624, "n": 93, "fmt": "36.6%"}, "preSleep": {"v": 34.365591397849464, "n": 93, "fmt": "34.4 min"}, "heavyPre": {"v": 12.903225806451612, "n": 93, "fmt": "12.9%"}, "screen": {"v": 5.8236559139784925, "n": 93, "fmt": "5.82 h"}, "deviceFree": {"v": 20.652173913043477, "n": 92, "fmt": "20.7%"}, "attendance": {"v": 78.61720430107526, "n": 93, "fmt": "78.6%"}, "lowAtt": {"v": 39.784946236559136, "n": 93, "fmt": "39.8%"}, "study": {"v": 15.48494623655914, "n": 93, "fmt": "15.5 h"}, "risk": {"v": 30.27752688172043, "n": 93, "fmt": "30.3"}, "elevHigh": {"v": 20.43010752688172, "n": 93, "fmt": "20.4%"}, "wellbeing": {"v": 0.06751612903225807, "n": 93, "fmt": "0.07"}}}, {"name": "chrono=Night Owl|Intermediate + res=Dormitory + job=No + outliers excluded", "filters": {"chrono": ["Night Owl", "Intermediate"], "res": ["Dormitory"], "job": ["No"]}, "out": true, "rows": 84, "kpis": {"cgpa": {"v": 2.7883333333333336, "n": 84, "fmt": "2.79"}, "atRisk": {"v": 22.61904761904762, "n": 84, "fmt": "22.6%"}, "sleep": {"v": 6.642857142857143, "n": 84, "fmt": "6.64 h"}, "short": {"v": 27.38095238095238, "n": 84, "fmt": "27.4%"}, "bedtime": {"v": 24.4, "n": 84, "fmt": "00:24"}, "afterMid": {"v": 63.095238095238095, "n": 84, "fmt": "63.1%"}, "quality": {"v": 7.409638554216867, "n": 83, "fmt": "7.41/10"}, "jetlag": {"v": 36.904761904761905, "n": 84, "fmt": "36.9%"}, "preSleep": {"v": 46.05952380952381, "n": 84, "fmt": "46.1 min"}, "heavyPre": {"v": 20.238095238095237, "n": 84, "fmt": "20.2%"}, "screen": {"v": 6.0702380952380945, "n": 84, "fmt": "6.07 h"}, "deviceFree": {"v": 26.829268292682926, "n": 82, "fmt": "26.8%"}, "attendance": {"v": 80.83214285714286, "n": 84, "fmt": "80.8%"}, "lowAtt": {"v": 34.523809523809526, "n": 84, "fmt": "34.5%"}, "study": {"v": 15.610714285714286, "n": 84, "fmt": "15.6 h"}, "risk": {"v": 32.84833333333332, "n": 84, "fmt": "32.8"}, "elevHigh": {"v": 26.19047619047619, "n": 84, "fmt": "26.2%"}, "wellbeing": {"v": 0.05245238095238097, "n": 84, "fmt": "0.05"}}}, {"name": "res=With Family", "filters": {"res": ["With Family"]}, "out": false, "rows": 133, "kpis": {"cgpa": {"v": 2.8686363636363637, "n": 132, "fmt": "2.87"}, "atRisk": {"v": 12.121212121212121, "n": 132, "fmt": "12.1%"}, "sleep": {"v": 6.443609022556391, "n": 133, "fmt": "6.44 h"}, "short": {"v": 36.090225563909776, "n": 133, "fmt": "36.1%"}, "bedtime": {"v": 23.8, "n": 133, "fmt": "23:48"}, "afterMid": {"v": 48.87218045112782, "n": 133, "fmt": "48.9%"}, "quality": {"v": 7.0534351145038165, "n": 131, "fmt": "7.05/10"}, "jetlag": {"v": 37.59398496240601, "n": 133, "fmt": "37.6%"}, "preSleep": {"v": 38.70676691729323, "n": 133, "fmt": "38.7 min"}, "heavyPre": {"v": 20.30075187969925, "n": 133, "fmt": "20.3%"}, "screen": {"v": 5.646616541353383, "n": 133, "fmt": "5.65 h"}, "deviceFree": {"v": 27.131782945736433, "n": 129, "fmt": "27.1%"}, "attendance": {"v": 79.40150375939851, "n": 133, "fmt": "79.4%"}, "lowAtt": {"v": 34.58646616541353, "n": 133, "fmt": "34.6%"}, "study": {"v": 17.46466165413534, "n": 133, "fmt": "17.5 h"}, "risk": {"v": 33.129999999999995, "n": 133, "fmt": "33.1"}, "elevHigh": {"v": 34.58646616541353, "n": 133, "fmt": "34.6%"}, "wellbeing": {"v": -0.0763233082706767, "n": 133, "fmt": "-0.08"}}}]};
+const LABEL_TO_KEY = Object.fromEntries(Object.entries(KPI).map(([k, d]) => [d.label, k]));
+const out = { checks: 0, mismatches: [], combos: [] };
+const pagesWithKpis = ["overview", "sleep", "digital", "academic", "living", "explorer"];
+for (const c of EXP.combos) {
+  FILTERS.forEach(f => state.filters[f.key] = f.kind === "seg" ? "All" : []);
+  for (const [k, v] of Object.entries(c.filters)) { const f = FILTERS.find(x => x.key === k); state.filters[k] = f.kind === "seg" ? v[0] : v; }
+  state.outliers = c.out; state.sel = null;
+  const rows = globalRows();
+  const times = {};
+  if (rows.length !== c.rows) out.mismatches.push({ combo: c.name, what: "row count", dash: rows.length, py: c.rows });
+  // 1) computed values
+  for (const [k, e] of Object.entries(c.kpis)) {
+    const { v, n } = KPI[k].calc(rows); out.checks += 2;
+    if ((v == null) !== (e.v == null) || (v != null && Math.abs(v - e.v) > 1e-9 * Math.max(1, Math.abs(e.v)))) out.mismatches.push({ combo: c.name, kpi: k, what: "value", dash: v, py: e.v });
+    if (n !== e.n) out.mismatches.push({ combo: c.name, kpi: k, what: "n", dash: n, py: e.n });
+  }
+  // 2) displayed tiles on every page
+  let tiles = 0;
+  for (const p of pagesWithKpis) {
+    update(null, {}); go(p); times[p] = +main.dataset.renderMs;
+    for (const t of document.querySelectorAll(".kpi")) {
+      const key = LABEL_TO_KEY[t.querySelector(".lbl span").textContent]; const e = c.kpis[key];
+      const shown = t.querySelector(".val").textContent, nShown = +t.querySelector(".meta span").textContent.replace("n = ", "");
+      tiles++; out.checks += 2;
+      if (shown !== e.fmt) out.mismatches.push({ combo: c.name, page: p, kpi: key, what: "displayed", dash: shown, py: e.fmt });
+      if (nShown !== e.n) out.mismatches.push({ combo: c.name, page: p, kpi: key, what: "displayed n", dash: nShown, py: e.n });
+    }
+  }
+  out.combos.push({ name: c.name, rows: rows.length, tiles, renderMs: times });
+}
+FILTERS.forEach(f => state.filters[f.key] = f.kind === "seg" ? "All" : []); state.outliers = false; go("overview");
+return out;
+})()
