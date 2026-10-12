@@ -84,3 +84,7 @@ python validate_dashboard.py
 - **Small-sample thresholds.** Currently: faded under 30 students; heatmap cells hidden under 10.
 - **Profile action rules.** Thresholds and owning team for each suggested action.
 - **Device-free routine.** Wellness to decide how to present the "no measurable effect" finding.
+
+## License
+
+Code and documentation are released under the [MIT License](LICENSE).
